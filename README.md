@@ -1,4 +1,4 @@
-# Living_Simulation
+# Evaluating Living Alternatives Using Simulation Modelling in Excel
 ## Summary
 Here I created a decision model for a theoretical person named Hugh who recently completed his Master's Degree and is contemplating where to begin his career to maximize his net income (income after expenses). I used simulation functions in Excel like RAND() to simulate scenarios for his alternatives. Hugh lived in London ON and was deciding between working as a Data Analystin the following cities: London ON, Toronto ON, and Houston TX. Each with different possibilities of renting, buying and commuting (commuting from London to Toronto). Each alternative had different costs of living and salaries for his desired job, and he could not be certain about the actual numbers for anything. For example, if he were to move to Toronto, he can't be certain how much his salary would be before landing a job, therefore I specified a range and simulated the possibilites. After doing research to obtain rough figures for each variable (salaries, house prices, etc.), after 1000 iterations it was deemed that renting a house in Houston was the most financially feasible alternative.
 
@@ -35,11 +35,10 @@ I was then able to run the simulation. I did so by creating a data table from Ex
 After running the simulation I created a summary stats tables to evaluate each alternative. Since the figures change with every move made in Excel I copied and pasted the plain values in a new sheet to get a constant summary stats table. We can see that renting in Houston results in the highest average net income after 1000 iterations. Summary table and visualizations:
 
 ![image](https://github.com/kaven611/Living_Simulation/assets/156690481/55353414-4379-4a45-9523-e148057658a0)
-![image](https://github.com/kaven611/Living_Simulation/assets/156690481/94dddda2-515e-433b-a93d-467dacb79fb7)
-![image](https://github.com/kaven611/Living_Simulation/assets/156690481/3305b6c9-8d51-42c8-a603-051b99e6a31c)
-![image](https://github.com/kaven611/Living_Simulation/assets/156690481/615893b2-acd9-420c-9e7d-305cc5a58384)
-![image](https://github.com/kaven611/Living_Simulation/assets/156690481/8a271ee9-5242-4289-a63a-6002f26042b7)
-
+<img src="Vizzes/avg.png" alt="Image Description" width="400"/>
+<img src="Vizzes/sd.png" alt="Image Description" width="400"/>
+<img src="Vizzes/min.png" alt="Image Description" width="400"/>
+<img src="Vizzes/max.png" alt="Image Description" width="400"/>
 
 Finally, one thing for the decision maker to consider is what variables would have to change for a different location to have the highest net income. For this question I examined the renting in London and commuting to Toronto for work alternative. This alternative has an average net income of $98,612. One of the expenses that could be decreased is the cost of commuting. For this alternative I assumed Hugh drove a Dodge Ram which had a fuel efficiency of 14.7L/100km. If Hugh drove a car that was more fuel efficient he could significantly decrease his commuting cost. If he got his monthly commuting cost down to $200 his average net income after 1000 iterations would be $107,043. This is quite close to $122,289 average for the renting in Houston alternative. The commuting alternative also has much lower standard deviation. Summary table:
 
@@ -51,36 +50,59 @@ In conclusion, simulation modelling in Excel was an effective method to evaluate
 ## References
  1 Glassdoor. (n.d.). Data Analyst Salaries. Retrieved December 12, 2023, from https://ww
 w.glassdoor.ca/Salaries/data-analyst-salary-SRCH_IM979_KO0,12.htm
+
 2 WowA. (n.d.). London Housing Market. Retrieved [insert date], from https://wowa.ca/london-housing-market
+
 3 Zumper. (n.d.). Rent Research in London, ON. Retrieved December 12, 2023, from https://www.zumper.com/rentresearch/london-on
+
 4 Livingcost. (n.d.). London, ON, Canada - Cost of Living. Retrieved from https://livingcost.org/cost/canada/on/london
+
 5 Glassdoor. (n.d.). Data Analyst Salaries. Retrieved December 12, 2023, from https://www.glassdoor.ca/Salaries/dataanalyst-salary-SRCH_IM976_KO0,12.ht
-6fueleconomy.gov. (n.d.). 2010 Dodge Ram 1500 Pickup. Retrieved December 12, 2023, from 
+
+6 fueleconomy.gov. (n.d.). 2010 Dodge Ram 1500 Pickup. Retrieved December 12, 2023, from 
 https://www.fueleconomy.gov/feg/bymodel/2010_Dodge_Ram_1500_Pickup.shtml
+
 7 16 MPG = 14.7 L/100 km
+
 8 Zumper. (n.d.). Rent Research in Toronto, ON. Retrieved December 12, 2023, from https://www.zumper.com/rentresearch/toronto-on
+
 9 WowA. (n.d.). Toronto Housing Market. Retrieved December 12, 2023, from https://wowa.ca/toronto-housing-market
+
 10 U-Haul. (n.d.). U-Haul: Your Moving and Storage Resource. Retrieved December 13, 2023, from https://www.uhaul.com/
+
 11 Fuelson. (n.d.). How Many MPG Does a U-Haul Truck Get? Retrieved December 12, 2023, from 
 https://fuelson.com/blog/how-many-mpg-does-a-u-haul-truck-get
+
 12 Nina Out and About. (n.d.). Cost of Living in Toronto: Breakdown & Tips. Retrieved from https://ninaoutandabout.ca/costof-living-toronto/
+
 13 Glassdoor. (n.d.). Data Analyst Salaries. Retrieved December 12, 2023, from https://www.glassdoor.ca/Salaries/dataanalyst-salary-SRCH_IM394_KO0,12.htm
+
 14 Zumper. (n.d.). Rent Research in Houston, TX. Retrieved Dec 12, 2023, from https://www.zumper.com/rentresearch/houston-tx
+
 15 Redfin. (n.d.). Houston, TX Housing Market. Retrieved Dec 12, 2023, from 
 https://www.redfin.com/city/8903/TX/Houston/housing-market
+
 16 WowA. (n.d.). Toronto Housing Market. Retrieved December 12, 2023, from https://wowa.ca/toronto-housing-market
+
 17 Finder. (n.d.). Gas Prices. Retrieved December 12, 2023, from https://www.finder.com/gasprices#:~:text=The%20national%20average%20gas%20price%20this%20week%20is,or%20%240.26%20a%20gallon%20le
 ss%20expensive%20than%20today.
+
 18 1 Litre = 0.22 Gallons
+
 19 Livingcost. (n.d.). Houston, TX, United States - Cost of Living. Retrieved Dec 12, 2023 from 
 https://livingcost.org/cost/united-states/tx/houston
+
 20 Consumer Financial Protection Bureau (CFPB). (n.d.). What Is Mortgage Insurance and How Does It Work? Retrieved 
-[insert date], from https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-insurance-and-how-does-it-work-en-1953/
+December 12, 2023, from https://www.consumerfinance.gov/ask-cfpb/what-is-mortgage-insurance-and-how-does-it-work-en-1953/
+
 21 Scotiabank. (n.d.). What is mortgage insurance and how does it work? Retrieved Dec 12, 2023, from 
 https://www.scotiabank.com/ca/en/personal/advice-plus/features/posts.what-is-mortgage-insurance-and-how-does-itwork.html#:~:text=Mortgage%20default%20insurance%20works%20out%20to%20cost%20an,value%20of%20the%20prope
 rty%20you%20want%20to%20buy%29.
+
 22 WowA. (n.d.). Canada Mortgage Rates History. Retrieved December 12, 2023, from https://wowa.ca/canada-mortgagerates-history
+
 23 ^Forbes. (n.d.). Mortgage Interest Rates Forecast. Retrieved December 12, 2023, from 
 https://www.forbes.com/advisor/mortgages/mortgage-interest-rates-forecast/
+
 24 Glassdoor. (n.d.). Registered Nurse Salaries. Retrieved December, 12, 2023, from 
 https://www.glassdoor.ca/Salaries/registered-nurse-salary-SRCH_IM979_KO0,16.htm
