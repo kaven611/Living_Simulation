@@ -32,7 +32,7 @@ I was then able to run the simulation. I did so by creating a data table from Ex
 
 ![image](https://github.com/kaven611/Living_Simulation/assets/156690481/a30ba50c-67ff-4289-9bfc-ce34e5a09efb)
 
-After running the simulation I created a summary stats tables to evaluate each alternative. Since the figures change with every move made in Excel I copied and pasted the plain values in a new sheet to get a constant summary stats table. We can see that renting in Houston results in the highest average net income after 1000 iterations. Summary table and visualizations:
+After running the simulation I created a summary stats tables to evaluate each alternative. Since the figures change with every move made in Excel I copied and pasted the plain values in a new sheet to get a constant summary stats table. We can see that renting in Houston results in the highest average net income after 1000 iterations. Summary table and visualizations: 
 <img src="Vizzes/avg.png" alt="Image Description" width="400"/>
 <img src="Vizzes/sd.png" alt="Image Description" width="400"/>
 <img src="Vizzes/min.png" alt="Image Description" width="400"/>
